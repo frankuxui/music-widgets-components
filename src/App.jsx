@@ -562,6 +562,55 @@ function App () {
           </div>
         </div>
 
+        {/** widget */}
+        <div className='break-inside relative overflow-hidden flex flex-col items-center text-center justify-between rounded-2xl mb-4 text-sm text-white'>
+          <img src='https://images.pexels.com/photos/8041323/pexels-photo-8041323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='background' className='object-cover' />
+          <div className='absolute bottom-0 left-0 w-full'>
+            <div className='flex flex-col rounded-xl p-4 bg-[#ffffff33] backdrop-blur-sm'>
+              <div className='flex flex-col items-center text-center space-y-2'>
+                <div>
+                  <h5 className='text-base'>Sunshine - Mix</h5>
+                  <p>Lookee Stefane</p>
+                </div>
+              </div>
+              <div className='flex items-center justify-between space-x-4'>
+                <span className='font-medium'>03:34</span>
+                <div className='relative rounded-full overflo-hidden flex-1 h-1 bg-slate-200 dark:bg-slate-600'>
+                  <div className='absolute rounded-full left-0 w-1/2 h-full bg-purple-500' />
+                </div>
+                <span className='font-medium'>08:14</span>
+              </div>
+              <div className='flex justify-between items-center'>
+                <button className='flex justify-center items-center rounded-full w-8 h-8 transition-all bg-transparent text-white'>
+                  <svg width='22' height='22' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M6,5.75L10.25,10H7V16H13.5L15.5,18H7A2,2 0 0,1 5,16V10H1.75L6,5.75M18,18.25L13.75,14H17V8H10.5L8.5,6H17A2,2 0 0,1 19,8V14H22.25L18,18.25Z' fill='currentColor' />
+                  </svg>
+                </button>
+                <button className='flex justify-center items-center rounded-full w-8 h-8 transition-all bg-transparent text-white'>
+                  <svg width='22' height='22' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M11.5,12L20,18V6M11,18V6L2.5,12L11,18Z' fill='currentColor' />
+                  </svg>
+                </button>
+                <button className='flex justify-center items-center rounded-full w-10 h-10 transition-all bg-white text-black'>
+                  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width='16' height='16'>
+                    <path fillRule='evenodd' d='M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z' clipRule='evenodd' />
+                  </svg>
+                </button>
+                <button className='flex justify-center items-center rounded-full w-8 h-8 transition-all bg-transparent text-white'>
+                  <svg width='22' height='22' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M13,6V18L21.5,12M4,18L12.5,12L4,6V18Z' fill='currentColor' />
+                  </svg>
+                </button>
+                <button className='flex justify-center items-center rounded-full w-8 h-8 transition-all bg-transparent text-white'>
+                  <svg width='22' height='22' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M14.83,13.41L13.42,14.82L16.55,17.95L14.5,20H20V14.5L17.96,16.54L14.83,13.41M14.5,4L16.54,6.04L4,18.59L5.41,20L17.96,7.46L20,9.5V4M10.59,9.17L5.41,4L4,5.41L9.17,10.58L10.59,9.17Z' fill='currentColor' />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/** widgets */}
         <div className='break-inside flex flex-row w-full gap-4'>
           <a href='#' className='flex flex-col p-3 space-y-2 w-1/2 items-center justify-between overflow-hidden rounded-xl shadow-2xl mb-4 text-sm bg-white text-black dark:bg-slate-800 dark:text-slate-100'>
