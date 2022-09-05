@@ -612,6 +612,46 @@ function App () {
           </div>
         </a>
 
+        {/** widgets */}
+        <div className='break-inside flex flex-row items-start gap-4 mb-4'>
+          <div className='relative flex flex-col h-[13rem] flex-1 items-center overflow-hidden justify-between rounded-xl group text-sm bg-white text-black dark:bg-slate-800 dark:text-white'>
+            <button className='absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full w-11 h-11 flex z-10 items-center justify-center transition-transform scale-0 group-hover:scale-100 bg-white text-black'>
+              <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width='22' height='22'>
+                <path fillRule='evenodd' d='M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z' clipRule='evenodd' />
+              </svg>
+            </button>
+            <div className='absolute top-0 left-0 w-full h-full z-0 bg-black opacity-5 transition-opacity group-hover:flex group-hover:opacity-50' />
+            <div className='w-full overflow-hidden flex flex-col justify-between'>
+              <div className='flex justify-between h-1/2'>
+                <img src='https://images.pexels.com/photos/1358816/pexels-photo-1358816.jpeg?cs=srgb&dl=pexels-felix-ramirez-1358816.jpg&fm=jpg' className='object-cover w-1/2' alt='cover' />
+                <img src='https://images.pexels.com/photos/1881773/pexels-photo-1881773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover w-1/2' alt='cover' />
+              </div>
+              <div className='flex justify-between h-1/2'>
+                <img src='https://images.pexels.com/photos/7022350/pexels-photo-7022350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover w-1/2' alt='cover' />
+                <img src='https://images.pexels.com/photos/1694900/pexels-photo-1694900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover w-1/2' alt='cover' />
+              </div>
+            </div>
+          </div>
+          <div className='relative cursor-pointer h-[13rem] flex flex-col flex-1 items-center overflow-hidden group justify-between rounded-xl text-xs text-white'>
+            <div className='absolute bottom-3 left-0 w-full px-3'>
+              <div className='flex justify-between items-center w-full p-2 rounded-2xl transition-all group-hover:bg-[#ffffffba] bg-[#ffffffa9] text-black backdrop-blur-sm'>
+                <div className='flex items-start justify-between w-full'>
+                  <div className='flex flex-col'>
+                    <h1 className='font-medium'>Kowanthza</h1>
+                    <p className='text-xs'>Track list</p>
+                  </div>
+                  <button className='rounded-full w-8 h-8 flex items-center justify-center shadow-xl bg-black text-white'>
+                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width='16' height='16'>
+                      <path fillRule='evenodd' d='M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z' clipRule='evenodd' />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <img src='https://images.pexels.com/photos/8044172/pexels-photo-8044172.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover w-full h-full' alt='cover' />
+          </div>
+        </div>
+
       </div>
     </div>
   )
