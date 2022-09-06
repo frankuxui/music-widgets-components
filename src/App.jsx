@@ -201,12 +201,12 @@ function App () {
         {/** widgets */}
         <div className='break-inside flex items-start flex-row w-full gap-4 mb-4'>
           <div className='flex flex-col w-1/2 items-center overflow-hidden justify-between rounded-xl text-sm bg-white text-black dark:bg-slate-800 dark:text-white'>
-            <div className='relative w-full h-36 overflow-hidden flex flex-col justify-between gap-1'>
-              <div className='flex justify-between h-1/2 gap-1'>
+            <div className='relative w-full h-36 overflow-hidden flex flex-col justify-between'>
+              <div className='flex justify-between h-1/2'>
                 <img src='https://images.pexels.com/photos/1358816/pexels-photo-1358816.jpeg?cs=srgb&dl=pexels-felix-ramirez-1358816.jpg&fm=jpg' className='object-cover flex-1' alt='cover' />
                 <img src='https://images.pexels.com/photos/1881773/pexels-photo-1881773.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover flex-1' alt='cover' />
               </div>
-              <div className='flex justify-between h-1/2 gap-1'>
+              <div className='flex justify-between h-1/2'>
                 <img src='https://images.pexels.com/photos/7022350/pexels-photo-7022350.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover flex-1' alt='cover' />
                 <img src='https://images.pexels.com/photos/1694900/pexels-photo-1694900.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover flex-1' alt='cover' />
               </div>
@@ -297,7 +297,7 @@ function App () {
           </a>
           <a href='#' className='flex flex-col w-1/2 items-center justify-between overflow-hidden text-sm bg-gradient-to-r from-[#7400e1] to-[#5b00ca] text-white rounded-xl mb-4'>
             <div className='w-full h-32'>
-              <img src='https://images.pexels.com/photos/9008803/pexels-photo-9008803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover h-full' alt='cover' />
+              <img src='https://images.pexels.com/photos/9008803/pexels-photo-9008803.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover w-full h-full' alt='cover' />
             </div>
             <div className='flex flex-col items-start w-full p-4'>
               <h1 className='font-medium'>Sultans Of Swing</h1>
@@ -372,7 +372,7 @@ function App () {
                   <path fillRule='evenodd' d='M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z' clipRule='evenodd' />
                 </svg>
               </button>
-              <img src='https://images.pexels.com/photos/33597/guitar-classical-guitar-acoustic-guitar-electric-guitar.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover h-full' alt='cover' />
+              <img src='https://images.pexels.com/photos/33597/guitar-classical-guitar-acoustic-guitar-electric-guitar.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover w-full h-full' alt='cover' />
             </div>
             <div className='flex flex-col items-start w-full p-4'>
               <h1 className='font-medium'>Bitter Sweet</h1>
@@ -501,7 +501,7 @@ function App () {
 
         {/** widget */}
         <div className='break-inside mb-4 flex flex-col space-y-2 text-sm text-black dark:text-white'>
-          <a href='#' className='break-inside bg-white rounded-md overflow-hidden text-sm group'>
+          <a href='#' className='bg-white rounded-md overflow-hidden text-sm group'>
             <div className='relative'>
               <div className='flex items-center space-x-2 absolute bottom-0 left-0 w-full p-6 bg-gradient-to-t from-[#000000] to-[#00000000]'>
                 <button className='rounded-full w-9 h-9 flex items-center justify-center bg-white text-black'>
@@ -525,9 +525,40 @@ function App () {
               <img src='https://images.pexels.com/photos/813940/pexels-photo-813940.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover' />
             </div>
           </a>
-          <div className='flex flex-col text-base'>
-            <a href='#' className='font-bold'>Hits verano 2022</a>
-            <span>Bizarrap, Quevedo, Romeo Santos, Anton...</span>
+        </div>
+
+        {/** widgets */}
+        <div className='break-inside flex flex-col w-full space-y-3'>
+          <h2 className='text-xl font-extrabold text-black dark:text-white'>Tus mixes más escuchados</h2>
+          <div className='flex flex-row w-full gap-4'>
+            <a href='#' className='flex flex-col space-y-2 w-1/2 items-center justify-between overflow-hidden mb-4 text-sm text-black dark:text-white'>
+              <div className='relative w-full h-32 overflow-hidden rounded-md'>
+                <div className='absolute bottom-0 right-0 w-full p-3'>
+                  <h1 className='text-xl font-bold leading-6 text-white'>
+                    Electronic
+                    <br />
+                    Circus
+                  </h1>
+                </div>
+                <img src='https://images.pexels.com/photos/811838/pexels-photo-811838.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover w-full h-full' alt='cover' />
+              </div>
+              <div className='flex flex-col items-start w-full space-y-1'>
+                <p className='text-xs'>Setting sights on benging trance, Shouse, Moby, Tnilcker</p>
+              </div>
+            </a>
+            <a href='#' className='flex flex-col space-y-2 w-1/2 items-center justify-between overflow-hidden mb-4 text-sm text-black dark:text-white'>
+              <div className='relative w-full h-32'>
+                <div className='absolute bottom-0 right-0 p-3 w-full'>
+                  <h1 className='text-lg font-bold leading-6 text-white'>Mix Deep House </h1>
+                </div>
+                <div className='absolute bottom-0 left-0 w-full h-2 bg-[#ff009d]' />
+                <img src='https://images.pexels.com/photos/1540406/pexels-photo-1540406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' className='object-cover w-full h-full' alt='cover' />
+              </div>
+              <div className='flex flex-col items-start w-full space-y-1'>
+                <h1 className='font-medium'>Dance Rising</h1>
+                <p className='text-xs'>Tomorrow's dance hits, with Eliza Ro...</p>
+              </div>
+            </a>
           </div>
         </div>
 
