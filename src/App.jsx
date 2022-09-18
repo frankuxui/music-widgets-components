@@ -732,7 +732,7 @@ function App () {
           </div>
         </div>
 
-        {/** widgets */}
+        {/** widget */}
         <div className='break-inside overflow-hidden flex flex-row justify-between rounded-2xl text-sm mb-4'>
           <div className='relative w-[8rem]'>
             <div className='absolute right-4 left-4 top-4 rounded-lg text-xs py-1 px-2 text-white bg-[black]'>
@@ -750,6 +750,43 @@ function App () {
                 </svg>
               </button>
             </div>
+          </div>
+        </div>
+
+        {/** widgets */}
+        <div className='break-inside overflow-hidden flex flex-col rounded-2xl text-sm mb-4 space-y-4 dark:text-white'>
+          <h1 className='text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#ff00b3] via-[#09fff7] to-[#ffef0c]'>Selected from the best artists of the moment</h1>
+          <div className='flex flex-row items-start justify-between gap-4'>
+            <a href='#' className='flex flex-1 flex-col items-center justify-center text-center space-y-2 font-medium'>
+              <div className='rounded-2xl overflow-hidden'>
+                <img src='https://images.pexels.com/photos/228842/pexels-photo-228842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Imagen' className='h-full w-full object-cover' />
+              </div>
+              <h2>
+                Jane
+                <br />
+                Cooper
+              </h2>
+            </a>
+            <a href='#' className='flex flex-1 flex-col items-center justify-center text-center space-y-2 font-medium'>
+              <div className='rounded-2xl overflow-hidden'>
+                <img src='https://images.pexels.com/photos/9980327/pexels-photo-9980327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Imagen' className='h-full w-full object-cover' />
+              </div>
+              <h2>
+                Julian
+                <br />
+                Alvarez
+              </h2>
+            </a>
+            <a href='#' className='flex flex-1 flex-col items-center justify-center text-center space-y-2 font-medium'>
+              <div className='rounded-2xl overflow-hidden'>
+                <img src='https://images.pexels.com/photos/8191522/pexels-photo-8191522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Imagen' className='h-full w-full object-cover' />
+              </div>
+              <h2>
+                Lorenzo
+                <br />
+                Spanno
+              </h2>
+            </a>
           </div>
         </div>
 
