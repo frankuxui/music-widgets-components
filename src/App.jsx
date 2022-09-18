@@ -732,6 +732,27 @@ function App () {
           </div>
         </div>
 
+        {/** widgets */}
+        <div className='break-inside overflow-hidden flex flex-row justify-between rounded-2xl text-sm mb-4'>
+          <div className='relative w-[8rem]'>
+            <div className='absolute right-4 left-4 top-4 rounded-lg text-xs py-1 px-2 text-white bg-[black]'>
+              Sat 24, September
+            </div>
+            <img src='https://images.pexels.com/photos/2240771/pexels-photo-2240771.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Imagen' className='w-full min-h-[7rem] object-cover' />
+          </div>
+          <div className='flex flex-col justify-between p-4 flex-1 bg-[#ffea00]'>
+            <h1 className='font-bold'>Renaissance - Riva Remix</h1>
+            <div className='flex flex-row justify-between items-center space-x-2'>
+              <p className='flex-1 text-xs font-medium'>Maxim lanny, Manuel Riva</p>
+              <button className='flex flex-none items-center justify-center rounded-full w-8 h-8 bg-white'>
+                <svg width='22' height='22' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                  <path d='M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z' fill='currentColor' />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
