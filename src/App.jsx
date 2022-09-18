@@ -755,7 +755,7 @@ function App () {
 
         {/** widgets */}
         <div className='break-inside overflow-hidden flex flex-col rounded-2xl text-sm mb-4 space-y-4 dark:text-white'>
-          <h1 className='text-2xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#ff00b3] via-[#09fff7] to-[#ffef0c]'>Selected from the best artists of the moment</h1>
+          <h1 className='text-2xl font-extrabold dark:bg-clip-text dark:text-transparent dark:bg-gradient-to-r dark:from-[#ff00b3] dark:via-[#09fff7] dark:to-[#ffef0c]'>Selected from the best artists of the moment</h1>
           <div className='flex flex-row items-start justify-between gap-4'>
             <a href='#' className='flex flex-1 flex-col items-center justify-center text-center space-y-2 font-medium'>
               <div className='rounded-2xl overflow-hidden'>
