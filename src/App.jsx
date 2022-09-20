@@ -403,6 +403,30 @@ function App () {
         </div>
 
         {/** widget */}
+        <div className='break-inside relative flex flex-col mb-4 text-xs p-4 rounded-xl overflow-hidden shadow-xl bg-white dark:bg-slate-800 dark:text-white'>
+          <div className='flex items-center space-x-4 pr-4 text-sm'>
+            <div className='flex items-center justify-center w-14 h-14 rounded-md font-medium text-base bg-[#072cff] text-white'>
+              02
+            </div>
+            <div className='flex-auto flex flex-col'>
+              <span className='text-xs'>Clubbed to death</span>
+              <a href='#' className='font-bold block text-sm'>Robert D.</a>
+              <p className='overflow-ellipsis w-[8.5rem] overflow-hidden whitespace-nowrap'>From the Matrix</p>
+            </div>
+            <button className='w-9 h-9 flex flex-none justify-center items-center rounded-full bg-white border-[1.5px] text-black border-black dark:border-white dark:bg-slate-800 dark:text-white'>
+              <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width='18' height='18'>
+                <path fillRule='evenodd' d='M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z' clipRule='evenodd' />
+              </svg>
+            </button>
+          </div>
+          <div className='absolute bottom-0 left-0 w-full rounded-full overflow-hidden bg-slate-100 h-[3px] whitespace-nowrap'>
+            <div className='bg-[#072cff] h-full w-4/6'>
+              <span className='sr-only'>33%</span>
+            </div>
+          </div>
+        </div>
+
+        {/** widget */}
         <div className='break-inside flex flex-col mb-4 rounded-xl overflow-hidden shadow-xl'>
           <div className='flex items-center bg-white text-sm dark:bg-slate-800 dark:text-white'>
             <img className='flex-none w-20 h-24 object-cover' src='https://images.pexels.com/photos/8041227/pexels-photo-8041227.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='cover' />
