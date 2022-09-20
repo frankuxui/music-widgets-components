@@ -830,6 +830,75 @@ function App () {
           </div>
         </div>
 
+        {/** widgets */}
+        <div className='break-inside flex flex-row w-full gap-4 text-xs dark:text-white'>
+          <div className='flex flex-col w-1/2'>
+            <div className='relative overflow-hidden rounded-2xl'>
+              <div className='absolute left-0 top-0 p-3 w-full flex items-center justify-between'>
+                <span className='px-2 py-1 rounded-lg text-white bg-[#000000c5]'>Aug 23</span>
+                <span className='rounded-lg flex items-center justify-center h-6 w-6 bg-[#000000c5]'>
+                  <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='white' width='14' height='14'>
+                    <path strokeLinecap='round' strokeLinejoin='round' d='M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z' />
+                  </svg>
+                </span>
+              </div>
+              <img src='https://images.pexels.com/photos/2766408/pexels-photo-2766408.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Imagen' />
+            </div>
+            <div className='mt-1'>
+              <h1 className='font-bold text-sm'>Lily Was Here</h1>
+              <p>Dave Stewart, Candy...</p>
+            </div>
+            <div className='flex items-center justify-start mt-2 space-x-3'>
+              <div className='col-start-2 row-start-1 row-end-3'>
+                <dt className='sr-only'>Users</dt>
+                <dd className='flex justify-start -space-x-1.5'>
+                  <a href='#' className='inline-block'>
+                    <img className='w-6 h-6 rounded-full ring-2 ring-[#e2e8f0] dark:ring-[#0b101a]' src='https://randomuser.me/api/portraits/women/12.jpg' alt='avatar' />
+                  </a>
+                  <a href='#' className='inline-block'>
+                    <img className='w-6 h-6 rounded-full ring-2 ring-[#e2e8f0] dark:ring-[#0b101a]' src='https://randomuser.me/api/portraits/men/15.jpg' alt='avatar' />
+                  </a>
+                  <a href='#' className='inline-block'>
+                    <img className='w-6 h-6 rounded-full ring-2 ring-[#e2e8f0] dark:ring-[#0b101a]' src='https://randomuser.me/api/portraits/women/32.jpg' alt='avatar' />
+                  </a>
+                </dd>
+              </div>
+              <span className='font-medium'>+18 Friends</span>
+            </div>
+          </div>
+          <div className='flex flex-col w-1/2'>
+            <div className='relative overflow-hidden rounded-2xl'>
+              <div className='absolute left-0 top-0 p-3 w-full flex items-center justify-between'>
+                <span className='px-2 py-1 rounded-lg text-white bg-[#000000c5]'>Aug 23</span>
+                <span className='rounded-lg flex items-center justify-center h-6 w-6 bg-[#000000c5]'>
+                  <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='white' width='14' height='14'>
+                    <path strokeLinecap='round' strokeLinejoin='round' d='M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z' />
+                  </svg>
+                </span>
+              </div>
+              <img src='https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Imagen' />
+            </div>
+            <div className='mt-1'>
+              <h1 className='font-bold text-sm'>Aron Petter Mc</h1>
+              <p>Maxim lanny, Manuel Riv...</p>
+              <div className='flex items-center justify-start mt-2 space-x-3'>
+                <div className='col-start-2 row-start-1 row-end-3'>
+                  <dt className='sr-only'>Users</dt>
+                  <dd className='flex justify-start -space-x-1.5'>
+                    <a href='#' className='inline-block'>
+                      <img className='w-6 h-6 rounded-full ring-2 ring-[#e2e8f0] dark:ring-[#0b101a]' src='https://randomuser.me/api/portraits/women/46.jpg' alt='avatar' />
+                    </a>
+                    <a href='#' className='inline-block'>
+                      <img className='w-6 h-6 rounded-full ring-2 ring-[#e2e8f0] dark:ring-[#0b101a]' src='https://randomuser.me/api/portraits/men/45.jpg' alt='avatar' />
+                    </a>
+                  </dd>
+                </div>
+                <span className='font-medium'>+12 Friends</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
