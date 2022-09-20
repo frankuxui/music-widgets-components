@@ -831,7 +831,7 @@ function App () {
         </div>
 
         {/** widgets */}
-        <div className='break-inside flex flex-row w-full gap-4 text-xs dark:text-white'>
+        <div className='break-inside flex flex-row w-full gap-4 mb-4 text-xs dark:text-white'>
           <div className='flex flex-col w-1/2'>
             <div className='relative overflow-hidden rounded-2xl'>
               <div className='absolute left-0 top-0 p-3 w-full flex items-center justify-between'>
@@ -894,6 +894,231 @@ function App () {
                   </dd>
                 </div>
                 <span className='font-medium'>+12 Friends</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/** widget */}
+        <div className='break-inside relative flex flex-col overflow-hidden rounded-2xl text-xs mb-4 bg-white text-black dark:bg-slate-800 dark:text-white'>
+          <div className='relative'>
+            <img src='https://images.pexels.com/photos/3927605/pexels-photo-3927605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Imagen cover' />
+            <div className='absolute top-0 left-0 w-full h-full p-4 flex flex-col justify-between text-white bg-gradient-to-t from-[#000000b9] to-[#00000000]'>
+              <div className='flex items-center justify-between w-full'>
+                <div className='flex items-center'>
+                  <button className='flex flex-none items-center justify-center rounded-full w-8 h-8'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+                      <path d='M15 18l-6-6 6-6' />
+                    </svg>
+                  </button>
+                </div>
+                <div className='flex items-center space-x-2'>
+                  <button className='flex flex-none items-center justify-center rounded-full w-8 h-8'>
+                    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' width='24' height='24'>
+                      <path d='M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z' />
+                    </svg>
+                  </button>
+                  <button className='flex flex-none items-center justify-center rounded-full w-8 h-8'>
+                    <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+                      <circle cx='12' cy='12' r='1' />
+                      <circle cx='12' cy='5' r='1' />
+                      <circle cx='12' cy='19' r='1' />
+                    </svg>
+                  </button>
+                </div>
+              </div>
+              <div className='flex items-center justify-between'>
+                <h1 className='font-bold text-3xl text-white'>
+                  <div className='text-xl'>EXCLUSIVE 😊😊</div>
+                  <div className='font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-[#00cf68] via-[#8cff00] to-[#ffff00]'>TOP HITS</div>
+                </h1>
+              </div>
+            </div>
+          </div>
+          <div className='pb-4 relative'>
+            <button className='absolute -top-5 right-6 rounded-full w-12 h-12 flex items-center justify-center bg-[#00dfa7] text-black'>
+              <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width='22' height='22'>
+                <path fillRule='evenodd' fill='currentColor' d='M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z' clipRule='evenodd' />
+              </svg>
+            </button>
+            <div className='px-4 pt-3'>
+              <div className='flex items-center text-slate-600 dark:text-slate-400 space-x-1'>
+                <div className='flex items-center space-x-2'>
+                  <img src='https://images.pexels.com/photos/228842/pexels-photo-228842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Cover' className='object-cover w-5 h-5 rounded-full' />
+                  <span className='font-medium'>Frank</span>
+                </div>
+                <span>-</span>
+                <div className='flex items-center space-x-1'>
+                  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width='16' height='16'>
+                    <path d='M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z' />
+                  </svg>
+                  <span>34,498 likes</span>
+                </div>
+              </div>
+            </div>
+            <div className='flex flex-col mt-4 px-4'>
+              <h2 className='font-medium text-base'>Featuring</h2>
+              <div className='flex flex-col mt-4'>
+                <div className='flex items-center justify-between -mx-4 px-4 py-2 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
+                  <div className='flex items-center space-x-3'>
+                    <div className='relative overflow-hidden rounded-md'>
+                      <div className='absolute left-0 top-0 w-full h-full flex items-center justify-center text-white bg-[#0000003f]'>
+                        <button>
+                          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width='20' height='20'>
+                            <path fillRule='evenodd' d='M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z' clipRule='evenodd' />
+                          </svg>
+                        </button>
+                      </div>
+                      <img src='https://images.pexels.com/photos/228842/pexels-photo-228842.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Cover' className='object-cover w-11 h-11' />
+                    </div>
+                    <div className='flex flex-col'>
+                      <h5 className='text-sm font-medium'>Sultans Of Swing</h5>
+                      <p className='text-slate-500 dark:text-slate-400'>Dire Straits</p>
+                    </div>
+                  </div>
+                  <div className='flex items-center space-x-1'>
+                    <button className='flex flex-none items-center justify-center rounded-full p-1'>
+                      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' width='20' height='20'>
+                        <path d='M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z' />
+                      </svg>
+                    </button>
+                    <button className='flex flex-none items-center justify-center rounded-full p-1'>
+                      <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2.2' strokeLinecap='round' strokeLinejoin='round'>
+                        <circle cx='12' cy='12' r='1' />
+                        <circle cx='12' cy='5' r='1' />
+                        <circle cx='12' cy='19' r='1' />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div className='flex items-center justify-between -mx-4 px-4 py-2 transition-all bg-slate-100 dark:bg-slate-700 hover:bg-slate-100 dark:hover:bg-slate-700'>
+                  <div className='flex items-center space-x-3'>
+                    <div className='relative overflow-hidden rounded-md'>
+                      <div className='absolute left-0 top-0 w-full h-full flex items-center justify-center text-white bg-[#0000003f]'>
+                        <button>
+                          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width='20' height='20'>
+                            <path fillRule='evenodd' d='M6.75 5.25a.75.75 0 01.75-.75H9a.75.75 0 01.75.75v13.5a.75.75 0 01-.75.75H7.5a.75.75 0 01-.75-.75V5.25zm7.5 0A.75.75 0 0115 4.5h1.5a.75.75 0 01.75.75v13.5a.75.75 0 01-.75.75H15a.75.75 0 01-.75-.75V5.25z' clipRule='evenodd' />
+                          </svg>
+                        </button>
+                      </div>
+                      <img src='https://images.pexels.com/photos/9980327/pexels-photo-9980327.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Cover' className='object-cover w-11 h-11' />
+                    </div>
+                    <div className='flex flex-col'>
+                      <h5 className='text-sm font-medium'>It Feel So Good</h5>
+                      <p className='text-slate-500 dark:text-slate-400'>Sonique</p>
+                    </div>
+                  </div>
+                  <div className='flex items-center space-x-1'>
+                    <button className='flex flex-none items-center justify-center rounded-full p-1'>
+                      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='#00dfa7' stroke='#00dfa7' strokeWidth='2' width='20' height='20'>
+                        <path d='M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z' />
+                      </svg>
+                    </button>
+                    <button className='flex flex-none items-center justify-center rounded-full p-1'>
+                      <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2.2' strokeLinecap='round' strokeLinejoin='round'>
+                        <circle cx='12' cy='12' r='1' />
+                        <circle cx='12' cy='5' r='1' />
+                        <circle cx='12' cy='19' r='1' />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div className='flex items-center justify-between -mx-4 px-4 py-2 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
+                  <div className='flex items-center space-x-3'>
+                    <div className='relative overflow-hidden rounded-md'>
+                      <div className='absolute left-0 top-0 w-full h-full flex items-center justify-center text-white bg-[#0000003f]'>
+                        <button>
+                          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width='20' height='20'>
+                            <path fillRule='evenodd' d='M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z' clipRule='evenodd' />
+                          </svg>
+                        </button>
+                      </div>
+                      <img src='https://images.pexels.com/photos/8191522/pexels-photo-8191522.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Cover' className='object-cover w-11 h-11' />
+                    </div>
+                    <div className='flex flex-col'>
+                      <h5 className='text-sm font-medium'>A Girl Like You</h5>
+                      <p className='text-slate-500 dark:text-slate-400'>Edwin Collins</p>
+                    </div>
+                  </div>
+                  <div className='flex items-center space-x-1'>
+                    <button className='flex flex-none items-center justify-center rounded-full p-1'>
+                      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' width='20' height='20'>
+                        <path d='M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z' />
+                      </svg>
+                    </button>
+                    <button className='flex flex-none items-center justify-center rounded-full p-1'>
+                      <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2.2' strokeLinecap='round' strokeLinejoin='round'>
+                        <circle cx='12' cy='12' r='1' />
+                        <circle cx='12' cy='5' r='1' />
+                        <circle cx='12' cy='19' r='1' />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div className='flex items-center justify-between -mx-4 px-4 py-2 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
+                  <div className='flex items-center space-x-3'>
+                    <div className='relative overflow-hidden rounded-md'>
+                      <div className='absolute left-0 top-0 w-full h-full flex items-center justify-center text-white bg-[#0000003f]'>
+                        <button>
+                          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width='20' height='20'>
+                            <path fillRule='evenodd' d='M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z' clipRule='evenodd' />
+                          </svg>
+                        </button>
+                      </div>
+                      <img src='https://images.pexels.com/photos/13580690/pexels-photo-13580690.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Cover' className='object-cover w-11 h-11' />
+                    </div>
+                    <div className='flex flex-col'>
+                      <h5 className='text-sm font-medium'>Sick and Tired</h5>
+                      <p className='text-slate-500 dark:text-slate-400'>Anastacia</p>
+                    </div>
+                  </div>
+                  <div className='flex items-center space-x-1'>
+                    <button className='flex flex-none items-center justify-center rounded-full p-1'>
+                      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' width='20' height='20'>
+                        <path d='M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z' />
+                      </svg>
+                    </button>
+                    <button className='flex flex-none items-center justify-center rounded-full p-1'>
+                      <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2.2' strokeLinecap='round' strokeLinejoin='round'>
+                        <circle cx='12' cy='12' r='1' />
+                        <circle cx='12' cy='5' r='1' />
+                        <circle cx='12' cy='19' r='1' />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+                <div className='flex items-center justify-between -mx-4 px-4 py-2 transition-all hover:bg-slate-100 dark:hover:bg-slate-700'>
+                  <div className='flex items-center space-x-3'>
+                    <div className='relative overflow-hidden rounded-md'>
+                      <div className='absolute left-0 top-0 w-full h-full flex items-center justify-center text-white bg-[#0000003f]'>
+                        <button>
+                          <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width='20' height='20'>
+                            <path fillRule='evenodd' d='M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z' clipRule='evenodd' />
+                          </svg>
+                        </button>
+                      </div>
+                      <img src='https://images.pexels.com/photos/13430269/pexels-photo-13430269.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Cover' className='object-cover w-11 h-11' />
+                    </div>
+                    <div className='flex flex-col'>
+                      <h5 className='text-sm font-medium'>Goodnight Moon</h5>
+                      <p className='text-slate-500 dark:text-slate-400'>Shiveree</p>
+                    </div>
+                  </div>
+                  <div className='flex items-center space-x-1'>
+                    <button className='flex flex-none items-center justify-center rounded-full p-1'>
+                      <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' width='20' height='20'>
+                        <path d='M11.645 20.91l-.007-.003-.022-.012a15.247 15.247 0 01-.383-.218 25.18 25.18 0 01-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0112 5.052 5.5 5.5 0 0116.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 01-4.244 3.17 15.247 15.247 0 01-.383.219l-.022.012-.007.004-.003.001a.752.752 0 01-.704 0l-.003-.001z' />
+                      </svg>
+                    </button>
+                    <button className='flex flex-none items-center justify-center rounded-full p-1'>
+                      <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2.2' strokeLinecap='round' strokeLinejoin='round'>
+                        <circle cx='12' cy='12' r='1' />
+                        <circle cx='12' cy='5' r='1' />
+                        <circle cx='12' cy='19' r='1' />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
