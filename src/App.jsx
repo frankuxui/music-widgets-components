@@ -790,6 +790,46 @@ function App () {
           </div>
         </div>
 
+        {/** widget */}
+        <div className='break-inside relative overflow-hidden rounded-2xl text-sm mb-4 text-white'>
+          <img src='https://images.pexels.com/photos/11356525/pexels-photo-11356525.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Musica' className='w-full object-cover' />
+          <div className='absolute top-0 left-0 w-full h-full p-4 flex flex-col justify-between bg-gradient-to-t from-[#000000b9] to-[#00000000]'>
+            <div className='flex items-center justify-between w-full'>
+              <div className='flex items-center'>
+                <button className='flex flex-none items-center justify-center rounded-full w-8 h-8'>
+                  <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+                    <path d='M15 18l-6-6 6-6' />
+                  </svg>
+                </button>
+              </div>
+              <div className='flex items-center space-x-2'>
+                <button className='flex flex-none items-center justify-center rounded-full w-8 h-8'>
+                  <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+                    <path d='M3 15v4c0 1.1.9 2 2 2h14a2 2 0 0 0 2-2v-4M17 8l-5-5-5 5M12 4.2v10.3' />
+                  </svg>
+                </button>
+                <button className='flex flex-none items-center justify-center rounded-full w-8 h-8'>
+                  <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+                    <path d='M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z' />
+                  </svg>
+                </button>
+              </div>
+            </div>
+            <div className='flex items-center justify-between'>
+              <div className='flex flex-col'>
+                <h1 className='font-bold text-xl'>Martin Gonz</h1>
+                <p>Marroned - 2011 - Remaster</p>
+                <div className='flex items-center space-x-1 mt-5'>
+                  <span className='px-1 py-[3px] rounded-md border text-xs border-white'>Techno</span>
+                  <span className='px-1 py-[3px] rounded-md border text-xs border-white'>Electronic</span>
+                  <span className='px-1 py-[3px] rounded-md border text-xs border-white'>House</span>
+                </div>
+              </div>
+              <span className='px-2 py-1 rounded-md text-xs bg-yellow-400 text-black'>20% Off</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
