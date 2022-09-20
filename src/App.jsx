@@ -1156,7 +1156,7 @@ function App () {
                   </button>
                 </div>
               </div>
-              <div className='p-4 bg-[#0000002d] backdrop-blur-sm space-y-4'>
+              <div className='p-4 bg-[#0000002d] backdrop-blur-sm space-y-4 border-t border-[#ffffff20]'>
                 <div className='flex items-center justify-between'>
                   <div>
                     <h1 className='font-medium text-base'>Sultans Of Swing</h1>
