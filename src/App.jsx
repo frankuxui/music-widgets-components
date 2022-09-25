@@ -1667,8 +1667,8 @@ function App () {
         <div className='break-inside overflow-hidden rounded-2xl text-sm mb-4 text-white'>
           <div className='relative'>
             <div className='flex items-center justify-start absolute top-4 left-4 space-x-2'>
-              <span className='text-xs uppercase font-bold rounded-md px-3 py-1 bg-[#ffd050] text-black dark:bg-white'>Electronic</span>
-              <span className='text-xs uppercase font-bold rounded-md px-3 py-1 bg-[#d3ff50] text-black dark:bg-white'>Dance</span>
+              <span className='text-xs uppercase font-bold rounded-md px-3 py-1 bg-[#ffd050] text-black'>Electronic</span>
+              <span className='text-xs uppercase font-bold rounded-md px-3 py-1 bg-[#d3ff50] text-black'>Dance</span>
             </div>
             <img src='https://images.pexels.com/photos/1540406/pexels-photo-1540406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Cover' className='w-full object-cover' />
             <div className='flex flex-col text-xs p-4 absolute bottom-0 left-0 w-full'>
