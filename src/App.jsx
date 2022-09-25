@@ -1663,6 +1663,92 @@ function App () {
           </div>
         </div>
 
+        {/** widget */}
+        <div className='break-inside overflow-hidden rounded-2xl text-sm mb-4 text-white'>
+          <div className='relative'>
+            <div className='flex items-center justify-start absolute top-4 left-4 space-x-2'>
+              <span className='text-xs uppercase font-bold rounded-md px-3 py-1 bg-[#ffd050] text-black dark:bg-white'>Electronic</span>
+              <span className='text-xs uppercase font-bold rounded-md px-3 py-1 bg-[#d3ff50] text-black dark:bg-white'>Dance</span>
+            </div>
+            <img src='https://images.pexels.com/photos/1540406/pexels-photo-1540406.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Cover' className='w-full object-cover' />
+            <div className='flex flex-col text-xs p-4 absolute bottom-0 left-0 w-full'>
+              <div className='w-full p-4 rounded-xl bg-[#7d20ff4d] backdrop-blur-sm flex flex-col text-xs'>
+                <div className='flex items-center flex-row justify-between w-full h-9 cursor-pointer'>
+                  <div className='w-[3px] h-[15%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[20%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[30%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[40%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[30%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[60%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[40%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[30%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[40%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[50%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[50%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[20%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[60%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[70%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[30%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[40%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[60%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[85%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[98%] rounded-full bg-slate-100' />
+                  <div className='w-[3px] h-[40%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[30%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[30%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[40%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[40%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[60%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[50%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[40%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[40%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[50%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[50%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[20%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[60%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[50%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[40%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[30%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[30%] rounded-full bg-[#ffffff69]' />
+                  <div className='w-[3px] h-[20%] rounded-full bg-[#ffffff69]' />
+                </div>
+                <div className='flex items-center justify-between'>
+                  <span className='text-white'>01:50</span>
+                  <span className='text-white'>03:55</span>
+                </div>
+              </div>
+              <div className='flex justify-between items-center mt-4 p-4 rounded-xl bg-[#7d20ff4d] backdrop-blur-sm '>
+                <button className='flex justify-center items-center rounded-full p-2 transition-all hover:bg-[#ffffff33]'>
+                  <svg width='22' height='22' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M6,5.75L10.25,10H7V16H13.5L15.5,18H7A2,2 0 0,1 5,16V10H1.75L6,5.75M18,18.25L13.75,14H17V8H10.5L8.5,6H17A2,2 0 0,1 19,8V14H22.25L18,18.25Z' fill='currentColor' />
+                  </svg>
+                </button>
+                <button className='flex justify-center items-center rounded-full p-2 transition-all hover:bg-[#ffffff33]'>
+                  <svg width='22' height='22' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M11.5,12L20,18V6M11,18V6L2.5,12L11,18Z' fill='currentColor' />
+                  </svg>
+                </button>
+                <button className='flex justify-center items-center rounded-full p-3 transition-all bg-[#ffffff] text-black'>
+                  <svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24' fill='currentColor' stroke='none' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+                    <rect x='6' y='4' width='4' height='16' />
+                    <rect x='14' y='4' width='4' height='16' />
+                  </svg>
+                </button>
+                <button className='flex justify-center items-center rounded-full p-2 transition-all hover:bg-[#ffffff33]'>
+                  <svg width='22' height='22' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                    <path d='M13,6V18L21.5,12M4,18L12.5,12L4,6V18Z' fill='currentColor' />
+                  </svg>
+                </button>
+                <button className='flex justify-center items-center rounded-full p-2 transition-all hover:bg-[#ffffff33]'>
+                  <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' width='22' height='22'>
+                    <path strokeLinecap='round' strokeLinejoin='round' d='M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z' />
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
