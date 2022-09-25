@@ -1521,6 +1521,46 @@ function App () {
           </div>
         </div>
 
+        {/** widget */}
+        <div className='break-inside relative mb-4 text-xs p-2 rounded-2xl overflow-hidden border-2 border-black dark:border-white bg-white dark:bg-slate-800 dark:text-white'>
+          <div className='flex flex-row space-x-4 text-sm'>
+            <img src='https://images.pexels.com/photos/2240772/pexels-photo-2240772.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Cover' className='flex-none w-28 h-28 rounded-2xl' />
+            <div className='flex flex-col justify-between w-full pb-2'>
+              <div>
+                <span className='text-xs'>The Fight</span>
+                <a href='#' className='font-bold block text-sm'>Silly Boy Blue</a>
+              </div>
+              <div className='flex items-center justify-start gap-2 flex-1'>
+                <button className='w-7 h-7 flex flex-none justify-center items-center rounded-full bg-white border-[1.5px] text-black border-black dark:border-white dark:bg-slate-800 dark:text-white'>
+                  <svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2.5' strokeLinecap='round' strokeLinejoin='round'>
+                    <polygon points='19 20 9 12 19 4 19 20' />
+                    <line x1='5' y1='19' x2='5' y2='5' />
+                  </svg>
+                </button>
+                <button className='w-8 h-8 flex flex-none justify-center items-center rounded-full bg-white border-[1.5px] text-black border-black dark:border-white dark:bg-slate-800 dark:text-white'>
+                  <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='currentColor' width='18' height='18'>
+                    <path fillRule='evenodd' d='M4.5 5.653c0-1.426 1.529-2.33 2.779-1.643l11.54 6.348c1.295.712 1.295 2.573 0 3.285L7.28 19.991c-1.25.687-2.779-.217-2.779-1.643V5.653z' clipRule='evenodd' />
+                  </svg>
+                </button>
+                <button className='w-7 h-7 flex flex-none justify-center items-center rounded-full bg-white border-[1.5px] text-black border-black dark:border-white dark:bg-slate-800 dark:text-white'>
+                  <svg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2.5' strokeLinecap='round' strokeLinejoin='round'>
+                    <polygon points='5 4 15 12 5 20 5 4' />
+                    <line x1='19' y1='5' x2='19' y2='19' />
+                  </svg>
+                </button>
+              </div>
+              <div className='relative'>
+                <div className='bg-slate-100 dark:bg-slate-600 transition-all duration-500 rounded-full overflow-hidden'>
+                  <div className='bg-[#070787] dark:bg-white transition-all duration-500 w-1/2 h-1' role='progressbar' aria-label='music progress' aria-valuenow='1456' aria-valuemin='0' aria-valuemax='4550' />
+                </div>
+                <div className='ring-[#070787] transition-all duration-500 ring-2 absolute left-1/2 top-1/2 w-4 h-4 -mt-2 -ml-2 flex items-center justify-center bg-white rounded-full shadow'>
+                  <div className='w-1.5 h-1.5 bg-[#070787] dark:slate-800 transition-all duration-500 rounded-full ring-1 ring-inset ring-slate-900/5' />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
