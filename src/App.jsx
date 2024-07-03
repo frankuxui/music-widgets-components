@@ -19,7 +19,6 @@ function App () {
 
   return (
     <div className='App pt-16 pb-16 mx-5 '>
-
       <a
         href='https://www.buymeacoffee.com/frankuxui'
         target='_blank'
