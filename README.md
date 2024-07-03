@@ -1,3 +1,3 @@
 # Widgets components
 
-![just-the-basics](https://music-widgets-components.vercel.app/src/cover.jpg)
+![just-the-basics](https://github.com/frankuxui/music-widgets-components/edit/main/README.md)
